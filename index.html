@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronóstico del Tiempo</title>
+    <!-- Enlace a los estilos de Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Enlace a los estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Pronóstico del Tiempo</h1>
+        
+        <!-- Formulario para ingresar la ciudad -->
+        <div class="mb-3">
+            <label for="ciudad" class="form-label">Ciudad:</label>
+            <input type="text" class="form-control" id="ciudad" placeholder="Ingresa una ciudad">
+        </div>
+        
+        <!-- Botón para obtener el pronóstico -->
+        <button class="btn btn-primary" id="obtenerPronostico">Obtener Pronóstico</button>
+        
+        <!-- Contenedor para mostrar el pronóstico -->
+        <div id="pronostico" class="mt-4"></div>
+    </div>
+    
+    <!-- Script de Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
